@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/UCSC/Third year/Internship/Projects/Assignment_ISA/Employee_API">
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="unittest"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+        
+        <packages>
+            <package name="com.isa.grpc.entity"></package>
+            <package name="com.isa.grpc.repository"></package>
+            <package name="com.isa.grpc.service"></package>
+        </packages>
+
+<!--        <classes>-->
+<!--            <class name="com.isa.grpc.EmployeeApiApplicationTests">-->
+<!--                <methods>-->
+<!--                    <include name="contextLoads"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+    </test>
+</suite>
